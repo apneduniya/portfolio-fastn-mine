@@ -1,0 +1,194 @@
+-- import: fifthtry.github.io/doc-site as ds
+-- import: fastn-community.github.io/winter-cs
+;; -- import: fifthtry.github.io/roboto-font/assets
+
+
+
+-- component home-page:
+;; js: particles.js
+;; js: app.js
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+background.solid: black
+id: particles-js
+
+-- header:
+
+-- main:
+
+-- end: ftd.column
+-- end: home-page
+
+
+-- component header:
+-- ftd.row:
+width: fill-container
+background.solid: black
+padding.px: 40
+padding-left.px: 70
+
+;; -- ftd.text: thatsmeadarsh
+;; role: $inherited.types.copy-regular
+;; color: white
+
+-- ftd.image:
+src: $assets.files.assets.images.logo.png
+height.fixed.px: 70
+width.fixed.px: 200
+
+-- end: ftd.row
+-- end: header
+
+
+-- component main:
+-- ftd.row:
+width: fill-container
+height: fill-container
+;; background.solid: $inherited.colors.background.base
+
+;; -- left-sidebar:
+
+-- content:
+
+;; -- right-sidebar:
+
+-- end: ftd.row
+-- end: main
+
+
+-- component content:
+-- ftd.column:
+height: fill-container
+width: fill-container
+;; background.solid: $inherited.colors.background.base
+align-content: center
+;; border-top-width.px: 2
+;; border-bottom-width.px: 2
+;; border-color: $inherited.colors.border
+
+;; -- ftd.type dtype:
+;; size.px: 40
+;; weight: 900
+;; font-family: $assets.fonts.Roboto
+;; line-height.px: 65
+;; letter-spacing.px: 5
+
+-- ftd.text: `Full Stack Developer`
+color: white
+margin-top.px: -50
+;; margin-bottom.px: 50
+role: $inherited.types.heading-large
+style: bold
+region: h1
+;; role: $dtype
+
+-- ftd.row:
+margin.px: 20
+
+
+-- ftd.text: I am a full stack developer with more than a year of experience in building web applications.
+role: $inherited.types.copy-regular
+color: white
+width.fixed.px: 300
+text-align: justify
+margin-left.px: 60
+margin-right.px: 60
+
+-- ftd.text: I have expertise in `ReactJS`, `NextJS`, `Pandas`, `Tkinter`, `Matplotlib`, `NoSQL`, `Framer Motion`, `Django` and `Fastapi`. 
+role: $inherited.types.copy-regular
+color: white
+width.fixed.px: 360
+text-align: justify
+margin-left.px: 40
+margin-right.px: 40
+
+-- ftd.text: With this I am also learning `Flutter`, `Solidity` and `ML/AI`.
+role: $inherited.types.copy-regular
+color: white
+width.fixed.px: 300
+text-align: justify
+margin-left.px: 60
+margin-right.px: 60
+
+
+-- end: ftd.row
+
+-- ftd.container:
+id: hero-child-container
+height.fixed.px: 380
+width.fixed.px: 1300
+align-self: start
+background.solid: #f3f4fd
+;; margin-right.calc: 100% - 50%
+border-top-right-radius.px: 200
+border-bottom-right-radius.px: 200
+;; src: $assets.files.assets.images.grid.jpg
+
+-- ftd.image: 
+anchor.id: hero-child-container
+;; align-self: center
+right.px: 0
+height.fixed.px: 380
+width.fixed.px: 700
+src: $assets.files.assets.images.hero.png
+
+
+-- ftd.column: 
+width.fixed.px: 500
+background.solid: #f3f4fd
+margin.px: 50
+
+-- ftd.text: `FastAPI`
+role: $inherited.types.heading-large
+color: white
+background.solid: teal
+align-self: start
+margin.px: 10
+margin-bottom.px: -5
+;; anchor.id: hero-child-container
+;; left.px: 80
+;; top.px: 70
+;; rotate.px: 10
+
+-- ftd.text: `FastN`
+role: $inherited.types.heading-large
+color: white
+background.solid: #ef8435
+align-self: end
+margin.px: 10
+;; anchor.id: hero-child-container
+;; left.px: 200
+;; top.px: 100
+
+-- ftd.text: `React`
+role: $inherited.types.heading-large
+color: white
+background.solid: #149eca
+align-self: start
+margin.px: 14
+margin-top.px: 20
+margin-left.px: 40
+;; anchor.id: hero-child-container
+;; left.px: 140
+;; top.px: 130
+
+
+-- end: ftd.column
+-- end: ftd.container
+
+
+
+
+-- end: ftd.column
+-- end: content
+
+
+-- home-page:
+
+
+
+
+
+
