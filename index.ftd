@@ -38,6 +38,74 @@ src: $assets.files.assets.images.logo.png
 height.fixed.px: 70
 width.fixed.px: 200
 
+-- ftd.row:
+width: fill-container
+align-self: center
+padding-left.px: 180
+spacing.fixed.px: 60
+
+-- ftd.text: Home
+color: white
+link: #
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- ftd.text: About
+color: white
+link: #
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- ftd.text: Projects
+color: white
+link: #
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- ftd.text: Contact
+color: white
+link: #
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- ftd.row:
+width: fill-container
+align-self: center
+padding-left.px: 100
+spacing.fixed.px: 20
+
+-- ftd.text: `GitHub`
+color: white
+link: https://github.com/apneduniya
+open-in-new-tab: true 
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- ftd.text: `Twitter`
+color: white
+link: https://twitter.com/thatsmeadarsh
+open-in-new-tab: true 
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- ftd.text: `LinkedIn`
+color: white
+link: https://www.linkedin.com/in/apneduniya/
+open-in-new-tab: true 
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- ftd.text: `Discord`
+color: white
+link: #
+open-in-new-tab: true 
+cursor: pointer
+role: $inherited.types.copy-regular
+
+-- end: ftd.row
+
+-- end: ftd.row
+
 -- end: ftd.row
 -- end: header
 
@@ -104,7 +172,7 @@ text-align: justify
 margin-left.px: 40
 margin-right.px: 40
 
--- ftd.text: With this I am also learning `Flutter`, `Solidity` and `ML/AI`.
+-- ftd.text: With this I have also made `Personal Portfolio`, `MakeSurge`, `SAS`, `Fast Memo`, `Earnifyy`, etc.
 role: $inherited.types.copy-regular
 color: white
 width.fixed.px: 300
